@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listtime1RowModel" type="com.andreyrodriguezsapplication.app.modules.articspageone.data.model.Listtime1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowtime"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtTime"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.72" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listtime1RowModel.txtTime}"
+            style="@style/txtSatoshiregular15_1" tools:text="@string/lbl_5_33"/>
+        <View
+            android:background="@drawable/rectangle_bg_gray_309_radius_2"
+            android:id="@+id/viewEllipseNineteen"
+            android:layout_height="@dimen/_4pxh"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_marginTop="@dimen/_5pxv" android:layout_width="@dimen/_4pxh"/>
+        <View
+            android:background="@drawable/rectangle_bg_gray_309_radius_2"
+            android:id="@+id/viewEllipseSeventeen"
+            android:layout_height="@dimen/_4pxh"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginStart="@dimen/_3pxh"
+            android:layout_marginTop="@dimen/_5pxv" android:layout_width="@dimen/_4pxh"/>
+        <View
+            android:background="@drawable/rectangle_bg_gray_309_radius_2"
+            android:id="@+id/viewEllipseEighteen"
+            android:layout_height="@dimen/_4pxh"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginStart="@dimen/_3pxh"
+            android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_4pxh"/>
+    </LinearLayout>
+</layout>
