@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listbadguyRowModel" type="com.andreyrodriguezsapplication.app.modules.homepage.data.model.ListbadguyRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowbadguy"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtBadGuy"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.4" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listbadguyRowModel.txtBadGuy}"
+            style="@style/txtSatoshibold16_1" tools:text="@string/lbl_bad_guy"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtScorpion"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_94pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.42" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listbadguyRowModel.txtScorpion}"
+            style="@style/txtSatoshibold16_1" tools:text="@string/lbl_scorpion"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginStart="@dimen/_99pxh"
+            android:layout_weight="0.18" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listbadguyRowModel.txtPrice}"
+            style="@style/txtSatoshibold16_1" tools:text="@string/msg_when_we_all_fal"/>
+    </LinearLayout>
+</layout>

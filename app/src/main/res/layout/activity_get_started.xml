@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="getStartedVM" type="com.andreyrodriguezsapplication.app.modules.getstarted.data.viewmodel.GetStartedVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackwp4780558billi"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegray_100">
+        <ImageView android:id="@+id/imageWp4780558billi"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_wp4780558billi}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_wp4780558billi"/>
+        <LinearLayout android:id="@+id/linearColumnvector"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_40pxv"
+            android:layout_marginEnd="@dimen/_28pxh"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_37pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <ImageView android:id="@+id/imageVector"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_59pxh"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_width="@dimen/_196pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_vector_green_400"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_vector_green_400"/>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtEnjoylistening"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_411pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{getStartedVM.getStartedModel.txtEnjoylistening}"
+                style="@style/txtSatoshibold25" tools:text="@string/msg_enjoy_listening"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_width="match_parent"
+                android:text="@{getStartedVM.getStartedModel.txtDescription}"
+                style="@style/txtSatoshiregular17" tools:text="@string/msg_lorem_ipsum_dol"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnGetStarted"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_37pxv"
+                android:layout_width="match_parent"
+                android:paddingHorizontal="@dimen/_30pxh"
+                android:paddingVertical="@dimen/_30pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_get_started"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_get_started"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

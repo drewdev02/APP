@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listtimeRowModel" type="com.andreyrodriguezsapplication.app.modules.homepage.data.model.ListtimeRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowtime"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtTime"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.64" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listtimeRowModel.txtTime}"
+            style="@style/txtSatoshiregular15" tools:text="@string/lbl_5_33"/>
+        <FrameLayout android:id="@+id/frameStackclock"
+            android:layout_height="@dimen/_15pxv"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_50pxh" android:layout_width="@dimen/_17pxh">
+            <ImageView android:id="@+id/imageClock"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_12pxh"
+                android:layout_marginHorizontal="@dimen/_1pxh"
+                android:layout_marginVertical="@dimen/_1pxv"
+                android:layout_width="@dimen/_14pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clock_12x14"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clock_12x14"/>
+            <ImageView android:id="@+id/imageFavorite"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_15pxh"
+                android:layout_width="@dimen/_17pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_favorite"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_favorite"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

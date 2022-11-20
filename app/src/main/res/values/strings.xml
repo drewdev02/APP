@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">andrey_rodriguez_s_application2</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue</string>
+<string name="lbl_now_playing">Now playing</string>
+<string name="lbl_steve_lacy">Steve Lacy</string>
+<string name="msg_recovery_passwo">Recovery password</string>
+<string name="msg_soroushnorozyui">Soroushnorozyui@gmail.com</string>
+<string name="msg_enter_username">enter username or email</string>
+<string name="lbl_see_more">see more</string>
+<string name="msg_public_playlist">Public playlists</string>
+<string name="lbl_bad_habit">Bad Habit</string>
+<string name="msg_when_we_all_fal">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</string>
+<string name="lbl_doja_cat">Doja Cat</string>
+<string name="msg_if_you_need_any2">If you need any support </string>
+<string name="msg_not_a_member">not a member ? register now</string>
+<string name="lbl_get_started2">get started</string>
+<string name="lbl_choose_mode2">choose mode</string>
+<string name="msg_do_you_have_an2">
+Do you have an account? </string>
+<string name="lbl_4_02">4:02</string>
+<string name="msg_super_freaky_gi">Super Freaky Girl</string>
+<string name="lbl_soroushnrz">Soroushnrz</string>
+<string name="msg_lorem_ipsum_dol2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis adipiscing vestibulum orci enim, nascetur vitae </string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_music_page">music page</string>
+<string name="lbl_dj_khaled">DJ Khaled</string>
+<string name="lbl_dark_mode">Dark mode</string>
+<string name="msg_dont_smile_at_m">dont smile at me</string>
+<string name="msg_enjoy_listening">Enjoy listening to music</string>
+<string name="lbl_sign_in">Sign in</string>
+<string name="lbl_podcast">Podcast</string>
+<string name="lbl_planet_her">Planet Her</string>
+<string name="lbl_new_album">New album</string>
+<string name="lbl_get_started">Get started</string>
+<string name="lbl_loading">Loading</string>
+<string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.</string>
+<string name="msg_my_soul_so_cyn">
+My soul? So cynical</string>
+<string name="lbl_lyrics2">lyrics</string>
+<string name="lbl_creat_account">creat account</string>
+<string name="lbl_3_43">3:43</string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl_sweetest_pie">Sweetest Pie</string>
+<string name="msg_megan_thee_stal">Megan Thee Stallion</string>
+<string name="lbl_choose_mode">Choose mode</string>
+<string name="lbl_778">778</string>
+<string name="lbl_register">Register</string>
+<string name="msg_if_you_need_any">If you need any support click here</string>
+<string name="lbl_nicki_minaj">Nicki Minaj</string>
+<string name="lbl_harry_styles">Harry Styles</string>
+<string name="lbl_scorpion">Scorpion</string>
+<string name="lbl_click_here">click here</string>
+<string name="msg_2_album_67_tr"> 2 album , 67 track</string>
+<string name="msg_resigster_or_si">resigster or sign up One</string>
+<string name="msg_don_t_say_thank">"Don't say thank you or please
+
+I do what I want when I'm wanting to
+"</string>
+<string name="lbl_light_mode">Light mode</string>
+<string name="lbl_video">Video</string>
+<string name="lbl_artics_page_one">artics page One</string>
+<string name="lbl_billie_eilish">Billie Eilish</string>
+<string name="lbl_albums">Albums</string>
+<string name="lbl_register_now">register now</string>
+<string name="lbl_243">243</string>
+<string name="lbl_5_33">5:33</string>
+<string name="msg_spotify_is_a_pr">Spotify is a proprietary Swedish audio streaming and media services provider </string>
+<string name="lbl_followes">Followes</string>
+<string name="lbl_bad_guy">Bad Guy</string>
+<string name="lbl_artics_page">artics page</string>
+<string name="lbl_lyrics">Lyrics</string>
+<string name="lbl_enter_email">Enter email</string>
+<string name="lbl_playlist">Playlist</string>
+<string name="lbl_drake">Drake</string>
+<string name="lbl_verse_1"> ( Verse 1 )</string>
+<string name="lbl_artists">Artists</string>
+<string name="lbl_verse_2"> ( Verse 2)</string>
+<string name="lbl_lilbubblegum">lilbubblegum</string>
+<string name="msg_do_you_have_an">
+Do you have an account? sign in</string>
+<string name="lbl_billie_eilish3">billie eilish</string>
+<string name="lbl_not_a_member">not a member ? </string>
+<string name="msg_happier_than_ev">Happier Than Ever</string>
+<string name="lbl_home_page">home page</string>
+<string name="lbl_sign_in2">Sign In</string>
+<string name="lbl_2_25">2;25</string>
+<string name="lbl_sign_in3">sign in</string>
+<string name="lbl_news">News</string>
+<string name="lbl_billie_eilish2">Billie eilish</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_songs">Songs</string>
+<string name="lbl_or">or</string>
+<string name="msg_resigster_or_si3">resigster or sign up Two</string>
+<string name="msg_sleepin_you_r2">"Sleepin', you're on your tippy toes
+&#13;
+Creepin' around like no one knows
+
+Think you're so criminal
+
+Bruises on both my knees for you&#13;
+"</string>
+<string name="lbl_god_did">God Did</string>
+<string name="msg_resigster_or_si2">resigster or sign up</string>
+<string name="msg_sleepin_you_r">"Sleepin', you're on your tippy toes
+&#13;
+Creepin' around like no one knows
+
+Think you're so criminal
+
+Bruises on both my knees for you&#13;
+
+Don't say thank you or please
+
+I do what I want when I'm wanting to
+
+My soul? So cynical"</string>
+<string name="lbl_full_name">full name</string>
+<string name="lbl_as_it_was">As It Was</string>
+</resources>
